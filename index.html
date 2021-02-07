@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="green" />
+    <meta name="apple-mobile-web-app-title" content="Bolsa de valores" />
+
+    <link rel="shortcut icon" type="image/png" href="./img/bolsa.png" />
+    <link rel="shortcut icon" type="image/png" href="./img/bolsa.png" />
+
+
+
+    <link rel="apple-touch-icon" href="./img/bolsa.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/bolsa.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/bolsa.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/bolsa.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/bolsa.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/bolsa.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/bolsa.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/bolsa.png" />
+
+    
+	<meta name="description" content=" Case Converter is a simple free online tool that converts any text to either lower case, upper case, proper or sentence case.">
+    <meta name="keywords" content=" Case Converter,sentence Case,lower Case,upper Case,capitalized Case,alternate Case minúsculas, MAIÚSCULAS, Formato frase, Formato Maiúsculas e fOrMaTo aLtErNaDo ">
+        
+    
+    <title>Case Converter</title>
+    <link rel="stylesheet" href="lib/bootstrap-xxl.min.css">
+    <link rel="stylesheet" href="lib/styles.css">
+    <link rel="stylesheet" href="lib/theme-dark-full.min.css">
+    
+    <!-- <script src="lib/jquery-3.3.1.min.js"></script> -->
+    <script src="script/functions.js"></script>
+    <style>
+        .card { }
+        .text{width: 70%; background-color: #252931; border: none!important;margin-top: 50px;color: #d4d4d4;margin: auto; background-color: #282828;  padding: 15px
+        }
+        .buttons{ width: auto; margin: auto; text-align: center; }
+        .btn-primary{margin-bottom: 15px;}
+        body{
+            background-color: #121212;
+        }
+    </style>
+    
+</head>
+<body >
+    <div class="row">
+        <div class="col-md-12" style="margin-top: 6%;">
+            <br>
+            <br>
+            <h1 class="text-center">Case Converter</h1>
+            <br>
+            <br>
+            <textarea id="text" class="text card" rows="10"></textarea>
+            <br />
+            <br />
+            <div class="buttons">
+                <button class="btn btn-primary"onClick="sentenceCase()">Sentence case</button>
+                <button class="btn btn-primary"onClick="lowerCase()">lower case</button>
+                <button class="btn btn-primary"onClick="upperCase()">UPPER CASE</button>
+                <button class="btn btn-primary"onClick="capitalizedCase()">Capitalized Case</button>
+                <button class="btn btn-primary"onClick="alternateCase()">Alternate Case</button>
+                <button class="btn btn-primary"onClick="copy()">Copy To Clipboard</button>
+                <!-- <button class="btn btn-primary"onClick="convert()">Title Case</button>
+                <button class="btn btn-primary"onClick="convert()">InVeRsE CaSe</button> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
